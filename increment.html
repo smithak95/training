@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+counter-reset:section;
+}
+
+h1{
+counter-reset: subsection;
+}
+h1::before{
+counter-increment:section;
+content:"No." counter(section)". ";
+}
+
+
+h2::before{
+counter-increment:subsection;
+content:counter(section)"." counter(subsection)". ";
+}
+
+
+
+
+</style>
+</head>
+<body>
+<h1>example of css counters</h1>
+
+<h2>HTML 5</h2>
+<h2>CSS 3</h2>
+<h2>java</h2>
+<h2>oops</h2>
+<p><strong>Note:</strong>only supports for Doctype</p>
+<p>hello</p>
+<h1>hello</h1>
+<h2>java</h2>
+<h2>oops</h2>
+</body>
+</html>

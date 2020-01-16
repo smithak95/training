@@ -1,0 +1,29 @@
+body {background-color:beige;}
+h1 {color:red;}
+marquee{
+color:blue;
+font-size:20px;
+}
+
+span{
+color:red;
+}
+
+table{
+border-collapse:collapse;
+width: 100%;
+}
+table,th,td{
+border: 2px solid black;
+padding: 20px;
+}
+
+button{
+padding:15px;
+border-radius:20px;
+border-color:black;
+margin:65px 0px 0px 700px;
+font-size:25px;
+}
+
+

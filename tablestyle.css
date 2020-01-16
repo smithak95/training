@@ -1,0 +1,14 @@
+body {background-color:pink;}
+span {
+color:red;
+font-size:50px;
+}
+
+table{
+border-collapse:collapse;
+width: 100%;
+}
+th, td{
+border: 2px solid green;
+padding: 15px;
+}
